@@ -10,7 +10,7 @@ export default function MyFirstComponent() {
 
   return (
     <div className="my-first-comp">
-      <div>My first component - {value}</div>
+      <div>My first component - {value}</div> 
       <button onClick={clickHandler.bind(null, 1)}>Click</button>
     </div>
   );
